@@ -1,0 +1,9 @@
+in HTTP (GET or POST) or in normal cconnections, since it is one way,server wont be able to send requests to client. 
+only client can request the server.
+
+web socket solves this problem by  making a two way connection.
+
+in HTTP , there might be many wastage of requests from the client side. in socket.io it does not happen.
+
+there will be two of them, a client and a server(chat server).
+client can be thought of as an independent website. server is the one  which is gonna listen to us.

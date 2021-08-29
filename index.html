@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>iChat - Realtime Node Socket.io Chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <!----basically by adding this simple script code,the client and server will kind of get connected.---->>
+    <!----server script first,client later.---->>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+ <nav>
+     <h1>Welcome to my chat application</h1>
+     <img class="logo" src="logo.jpg" alt="">
+</nav>
+
+<div class="container">
+     <div class="message right">Hey</div>
+     <div class="message right">Hey</div>
+     <div class="message right">Hey</div>
+     <div class="message right">Hey</div>
+     <div class="message right">Hey</div>
+     <div class="message right">Hey</div>
+     <div class="message right">Hey</div>
+     <div class="message right">Hey</div>
+     <div class="message right">Hey</div>
+     <div class="message right">Hey</div>
+     <div class="message right">Hey</div>
+     <div class="message right">Hey</div>
+     <div class="message left">Hello</div>
+
+</div>
+
+<div class="send">
+       <form action="#" id="send-container">
+              <input type="text" name="messageInp" id="messageInp">
+              <button class="btn" type="submit">Send</button>
+
+      </form>
+
+</div>
+
+</body>
+
+</html>
