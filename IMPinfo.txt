@@ -1,0 +1,19 @@
+in HTTP (GET or POST) or in normal cconnections, since it is one way,server won't be able to send requests to client. 
+only client can request the server.
+
+web socket solves this problem by  making a two way connection.
+whosever has update, it just pushes. either client or server can emit an event, and then the message which he/she is listening to, can hear and thus take action after hearning the event.
+
+in HTTP , there might be many wastage of requests from the client side. in socket.io it does not happen.
+
+there will be two of them, a client and a server(chat server).
+client can be thought of as an independent website. server is the one  which is gonna listen to us.
+socket.io server is an instance of http.
+
+also, do npm init as well  as npm i socket.io
+
+
+io.on is basically a socket.io instance which will listen to many socket.io instances. like harry connected, divya connected etc.
+socket.on will actually infact, tell that like jab ek particular connection ke saath jab kuch hoga, tab uske saath kya hona chaiye. socket.on will basically accept an event and argument(s) as well.
+
+
